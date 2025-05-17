@@ -9,7 +9,7 @@ function makeMate() {
 
 let currentSugar = 0;
 let requestedSugar;
-let message = "Prepare the mate!";
+let message = "Code the mate!";
 let score = 0;
 
 function setup() {
@@ -70,5 +70,5 @@ function mousePressed() {
 function generateNewRequest() {
   requestedSugar = int(random(0, 4)); // Between 0 and 3 teaspoons
   currentSugar = 0;
-  message = "Prepare the mate!";
+  message = "Code the mate!";
 }
