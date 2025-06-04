@@ -1,5 +1,5 @@
 let step = 0;
-let message = "Let's make mate!!";
+let message = "Let's make mate!";
 let status = {
 water: false,
 yerba: false,
